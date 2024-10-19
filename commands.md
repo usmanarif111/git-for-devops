@@ -3,13 +3,10 @@ Git Cheat Sheet for Beginners
 1.1. Setting Up Git
 Set your username:
 git config --global user.name "Your Name"
-
 Set your email:
 git config --global user.email "your.email@example.com"
-
 Check the configuration settings:
 git config --list
-
 1.2. Initialize a Repository
 Initialize a new Git repository:
 git init
@@ -23,10 +20,8 @@ git status
 2.2. Add Changes to Staging Area
 Add a specific file to the staging area:
 git add filename
-
 Add all files to the staging area:
 git add .
-
 2.3. Commit Changes
 Commit staged changes with a message:
 git commit -m "Your commit message"
@@ -34,10 +29,8 @@ git commit -m "Your commit message"
 3.1. Create a New Branch
 Create a new branch:
 git branch new-branch-name
-
 Switch to a branch:
 git checkout new-branch-name
-
 3.2. Merge Branches
 Merge a branch into the current branch:
 git merge branch-name
