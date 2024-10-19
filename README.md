@@ -7,3 +7,4 @@ Includes:
 - Commands
 - Tutorials
 - Videos (through ssh)
+- Projects
